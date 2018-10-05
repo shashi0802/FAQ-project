@@ -1,0 +1,73 @@
+.topic{
+    margin: 30px 0;
+}
+h1{
+    font-family: 'proxima_novaregular';
+    color: #565656;
+    font-size: 25px;
+    margin: 0;
+}
+h2{
+    color: #565656;
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    line-height: 100%;
+}
+p{
+    font-family: 'proxima_novaregular';
+    color: #565656;
+    font-size: 18px;
+    line-height: normal;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.activity-section{
+    margin: 25px 0px;
+    width: 100%;
+    display: inline-block;
+}
+
+h6{
+    font-weight: bold;
+    margin: 30px 0 2px 0;
+    font-family: 'proxima_novaregular';
+    color: #565656;
+    font-size: 18px;
+    line-height: normal;
+    word-wrap: break-word;
+}
+p{
+    font-family: 'proxima_novaregular';
+    color: #565656;
+    font-size: 18px;
+    line-height: 1.1;
+    margin: 0;
+    word-wrap: break-word;
+}
+.activity-section ul{
+    padding-left: 0;
+}
+.activity-section ul li{
+    list-style-position: outside !important;
+    margin-left: 15px;
+    padding-left: 0px !important;
+    text-indent: 0px !important;
+}
+.activity-section ul li{
+    font-family: 'proxima_novaregular';
+    color: #565656;
+    font-size: 18px;
+    line-height: normal;
+    word-wrap: break-word;
+}
+
+.activity-section ul li .inline-headding{
+    display: inline-block;
+    margin: 0;
+}
