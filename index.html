@@ -6,32 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Static page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
 
     <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
     <script src="./js/main.js"></script>
 </head>
 
 <body>
-    <div>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#main-container">GENERAL <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link " href="#tab-two">REGISTRATION</a>
+                    <a class="nav-item nav-link " href="#tab-three">ACCESS</a>
+                    <a class="nav-item nav-link " href="#tab-four">MEALS</a>
+                    <a class="nav-item nav-link " href="#tab-five">HOUSING</a>
+                    <a class="nav-item nav-link " href="#tab-six">SESSIONS</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="main-container" >
         <div class="container-fluid topic">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>VMworld 2018 US: FAQs</h1>
+                    <h1 id="main-container">VMworld 2018 US: FAQs</h1>
                     <p>Find the answers to frequently asked questions about VMworld 2018 US (registration, location,
                         agenda, meals, etc). Learn More!</p>
                 </div>
             </div>
         </div>
 
-        <div class="activity-section">
+        <div class="activity-section" id="tab-one">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -54,18 +64,21 @@
 
                             <h6>Who attends VMworld?</h6>
                             <p>
-                                VMworld attendees are a mix of IT technical professionals and business decision makers from
+                                VMworld attendees are a mix of IT technical professionals and business decision makers
+                                from
                                 organizations of all sizes,
                                 representing a wide range of industries.
                             </p>
                             <h6>When and where will VMworld 2018 US take place?</h6>
                             <p>
-                                VMworld 2018 US will take place August 26 – 30, 2018 at Mandalay Bay in Las Vegas, Nevada.
+                                VMworld 2018 US will take place August 26 – 30, 2018 at Mandalay Bay in Las Vegas,
+                                Nevada.
                             </p>
 
                             <h6>What is the address of Mandalay Bay?</h6>
                             <p>
-                                Mandalay Bay <br> 3950 S Las Vegas Blvd. <br> Las Vegas, NV 89119 <br> Phone: 702-632-7777
+                                Mandalay Bay <br> 3950 S Las Vegas Blvd. <br> Las Vegas, NV 89119 <br> Phone:
+                                702-632-7777
                                 <br>
                                 <a href="#">www.mandalaybay.com</a>
                             </p>
@@ -74,7 +87,8 @@
                             <p>
                                 The official language of the conference is English, and all general sessions, breakout
                                 sessions, and hands-on labs will be presented in English.
-                                If you wish to bring a translator, please contact the <a href="#">VMworld team</a> for more
+                                If you wish to bring a translator, please contact the <a href="#">VMworld team</a> for
+                                more
                                 information.
                             </p>
 
@@ -94,7 +108,8 @@
 
                             <h6>I'm new to VMworld. Can you provide any other guidance?</h6>
                             <p>
-                                We offer a special orientation session just for first-timers. Join us for the NewV welcome
+                                We offer a special orientation session just for first-timers. Join us for the NewV
+                                welcome
                                 session, which will be held on Sunday afternoon.
                                 It's a fun event where you'll connect with other new attendees, get details to help you
                                 plan and navigate your way through VMworld,
@@ -111,7 +126,7 @@
             </div>
         </div>
 
-        <div class="activity-section">
+        <div class="activity-section" id="tab-two">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -147,7 +162,8 @@
                             <li>Welcome reception</li>
                             <li>General sessions</li>
                             <li>Breakout sessions (<i>
-                                    <h6 class="inline-headding">Please note</h6>: Some sessions are restricted to VMware
+                                    <h6 class="inline-headding">Please note</h6>: Some sessions are restricted to
+                                    VMware
                                     partners or other select groups of attendees
                                 </i>)</li>
                             <li>VMware Hands-on Labs</li>
@@ -158,13 +174,15 @@
                         <p>
                             <h6>Is there a deadline for registration?</h6>
                             <p>
-                                No, there's no deadline. You can register online through the last day of the conference.
+                                No, there's no deadline. You can register online through the last day of the
+                                conference.
                                 However, there are discounts for early registration.
                             </p>
 
                             <h6>Can I be denied registration for any reason?</h6>
                             <p>
-                                VMware reserves the right to deny registration to any individual or entity for any reason,
+                                VMware reserves the right to deny registration to any individual or entity for any
+                                reason,
                                 at VMware's sole discretion,
                                 including past or present failure to meet VMware's standards of conduct,
                                 and also including (but not limited to) engaging in violent, illegal, threatening, or
@@ -183,7 +201,7 @@
             </div>
         </div>
 
-        <div class="activity-section">
+        <div class="activity-section" id="tab-three">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -191,7 +209,8 @@
                         <p>
                             <h6>Will I need a badge to get in?</h6>
                             <p>
-                                Yes, a conference badge is required for entry into the conference and should be worn at all
+                                Yes, a conference badge is required for entry into the conference and should be worn at
+                                all
                                 times.
                                 You'll be able to pick up your badge at the VMworld registration desk during open
                                 registration hours.
@@ -203,14 +222,16 @@
                             <h6>Do I need a visa to attend the conference?</h6>
                             <p>
                                 There are a few countries that require a visa for entry.
-                                We recommend checking in advance with your country's local U.S. consulate for details and
+                                We recommend checking in advance with your country's local U.S. consulate for details
+                                and
                                 requirements.
                             </p>
 
                             <h6>How do I obtain a visa invitation letter?</h6>
                             <p>
                                 During the registration process you will be asked if you require a visa letter.
-                                In order to request a visa letter from the VMworld team, please be prepared to provide the
+                                In order to request a visa letter from the VMworld team, please be prepared to provide
+                                the
                                 following information:
                             </p>
 
@@ -224,9 +245,12 @@
                             </ul>
 
                             <p>
-                                Visa invitation letters will be submitted for approval for attendees who have requested a
-                                letter and have completed registration data for a full conference pass, including payment.
-                                Please note we can only issue visa letters for fully paid attendees and you will need to
+                                Visa invitation letters will be submitted for approval for attendees who have requested
+                                a
+                                letter and have completed registration data for a full conference pass, including
+                                payment.
+                                Please note we can only issue visa letters for fully paid attendees and you will need
+                                to
                                 allow two to three weeks for your embassy to process your request.
                                 Visa letter requests will not be accepted after July 27, 2018.
                             </p>
@@ -236,7 +260,7 @@
             </div>
         </div>
 
-        <div class="actvity-section">
+        <div class="activity-section" id="tab-four">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -252,7 +276,8 @@
                         </p>
                         <p>
                             <h6>I have requested a special meal.
-                                Where can I find more information about the meal description, timing, and location for each
+                                Where can I find more information about the meal description, timing, and location for
+                                each
                                 dietary type?
                             </h6>
                             <p>
@@ -264,7 +289,7 @@
             </div>
         </div>
 
-        <div class="activity-section">
+        <div class="activity-section" id="tab-five">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -280,17 +305,21 @@
 
                             <h6>Do I need to give a credit card to reserve my room?</h6>
                             <p>
-                                Yes, a credit card will be needed to confirm your reservation at a designated VMworld 2018
+                                Yes, a credit card will be needed to confirm your reservation at a designated VMworld
+                                2018
                                 US hotel.
-                                Please note: One night's lodging and tax will be charged by the hotel to your credit card
+                                Please note: One night's lodging and tax will be charged by the hotel to your credit
+                                card
                                 upon reservation.
                             </p>
 
                             <h6>Will I receive a hotel confirmation?</h6>
                             <p>
-                                Yes, your hotel confirmation will be sent to you once VMworld US registration is complete,
+                                Yes, your hotel confirmation will be sent to you once VMworld US registration is
+                                complete,
                                 and your hotel booking made.
-                                The hotel confirmation email will include your check-in and check-out dates, together with
+                                The hotel confirmation email will include your check-in and check-out dates, together
+                                with
                                 the hotel name and address.
                                 You will not receive a confirmation number for your booking.
                             </p>
@@ -312,8 +341,10 @@
                             <h6>How close are the hotels to Mandalay Bay?</h6>
                             <p>
                                 VMworld US hotels include Mandalay Bay, Four Seasons Hotel, Delano Las Vegas,
-                                MGM Grand, The Signature at MGM Grand and Luxor. Mandalay Bay, the Four Seasons, and Delano
-                                are located onsite. Luxor is adjacent to the Mandalay Bay property and is connected to it
+                                MGM Grand, The Signature at MGM Grand and Luxor. Mandalay Bay, the Four Seasons, and
+                                Delano
+                                are located onsite. Luxor is adjacent to the Mandalay Bay property and is connected to
+                                it
                                 by an inter-hotel tram. MGM Grand and The Signature at MGM Grand are located a short
                                 distance away.
                                 Shuttles will run in 20 minute frequencies on Sunday and 15 minute frequencies Monday
@@ -331,7 +362,7 @@
             </div>
         </div>
 
-        <div class="activity-section">
+        <div class="activity-section" id="tab-six">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -339,23 +370,26 @@
                         <p>
                             <h6>What is the content catalog?</h6>
                             <p>
-                                    The VMworld 2018 US content catalog provides a comprehensive list of
-                                    <a href="#">breakout sessions, hands-on labs, and other sessions</a>
-                                    . Registered attendees and prospective attendees alike 
-                                    use the catalog to check out topics and speakers and find their “sessions of interest.”
+                                The VMworld 2018 US content catalog provides a comprehensive list of
+                                <a href="#">breakout sessions, hands-on labs, and other sessions</a>
+                                . Registered attendees and prospective attendees alike
+                                use the catalog to check out topics and speakers and find their “sessions of interest.”
                             </p>
 
                             <h6>Can I preregister for sessions?</h6>
                             <p>
-                                    Yes! The content catalog's built-in scheduling feature will be available in July. 
-                                    At that point, if you have completed your registration and payment for VMworld, you can preregister for sessions and begin building out your personal schedule for the week. 
-                                    Because breakout sessions can fill up quickly, we advise preregistering at your earliest convenience.
+                                Yes! The content catalog's built-in scheduling feature will be available in July.
+                                At that point, if you have completed your registration and payment for VMworld, you can
+                                preregister for sessions and begin building out your personal schedule for the week.
+                                Because breakout sessions can fill up quickly, we advise preregistering at your
+                                earliest convenience.
                             </p>
 
                             <h6>Can I get copies of the material presented at the conference?</h6>
                             <p>
-                                    Yes, presentations will be posted after VMworld 2018. Please note that only those sessions that are pre-approved for publication are made available online. 
-                                    To view sessions from past VMworlds, please visit our <a href="#">on-demand library</a>.
+                                Yes, presentations will be posted after VMworld 2018. Please note that only those
+                                sessions that are pre-approved for publication are made available online.
+                                To view sessions from past VMworlds, please visit our <a href="#">on-demand library</a>.
                             </p>
                         </p>
                     </div>
